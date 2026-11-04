@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f7fc; color: #0f1f5c; margin: 0; padding: 0; }
+    header { background: #1a6bff; color: #fff; padding: 24px; text-align: center; }
+    nav { background: #0f1f5c; padding: 10px; text-align: center; }
+    nav a { color: #fff; margin: 0 14px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 700px; margin: 30px auto; background: #fff; padding: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+    h2 { color: #1a6bff; border-bottom: 2px solid #1a6bff; padding-bottom: 6px; }
+    label { display: block; margin-top: 14px; font-weight: bold; }
+    input, textarea { width: 100%; padding: 8px; margin-top: 4px; border: 1px solid #b9c8e6; border-radius: 4px; box-sizing: border-box; }
+    button { margin-top: 16px; background: #1a6bff; color: #fff; border: none; padding: 10px 22px; border-radius: 4px; cursor: pointer; font-size: 15px; }
+    button:hover { background: #0f4fcc; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact</h1>
+    <p>Get in touch with me</p>
+  </header>
+  <nav>
+    <a href="profile.html">Profile</a>
+    <a href="skills.html">Skills</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <main>
+    <h2>Contact Details</h2>
+    <p>GitHub: <a href="https://github.com/shriyamgupta14-sys" target="_blank" rel="noopener">github.com/shriyamgupta14-sys</a></p>
+    <p>Location: India</p>
+    <h2>Send a Message</h2>
+    <form action="#" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+</body>
+</html>
